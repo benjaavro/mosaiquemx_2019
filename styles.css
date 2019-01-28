@@ -122,7 +122,10 @@ a:hover {
 
 .main {
     height: 710px;
-    background-color: white;
+    background-image: url(IMG/SLIDER/SLIDE1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: lighten  ;
 }
 
 .dope-menu {
@@ -138,7 +141,7 @@ a:hover {
 .dope-menu-item {
     font-family: "Bebas Neue";
     font-size: 25px;
-    color: black;
+    color: white;
     position: absolute;
 }
 
@@ -168,7 +171,7 @@ a:hover {
 #est {
     font-family: "Bebas Neue";
     font-size: 25px;
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 90px;
     line-height: 30px;
@@ -188,145 +191,47 @@ a:hover {
 }
 
 
-/* Small devices (landscape phones, 576px and up) */
-/* iPhone 6s Size */
-@media (max-width: 375px) {
-    .main {
-        height: 666px;
-        background-color: white;
-        width: 100%;
-    }
-    
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 413px) {
     #menu-icon {
-        font-family: 'Bebas Neue';
-        font-size: 1.25em;
-        text-align: left;
-        margin-top: 22.5px;
-        margin-left: 70%;
-        height: 45px;
+        font-size: 30px;
+        top: 17px;
     }
     
-    #mySidenav {
-        padding-top: 50%;
+    #cart-icon {
+        font-size: 28px;
+        margin-left: 80px;
+        top: 16px;
     }
     
-    #cerrar {
-        font-size: 45px;
-        text-align: left;
-        margin-top: 20px;
-        margin-left: -10px;
-        text-decoration: none;
+    .closebtn {
+        font-size: 30px;
+        margin-right: -5px;
     }
     
-    #giant-icon {
-        margin-top: 170px;
-        margin-left: 18%;
-        max-height: 220px;
-    }
-
-    #tienda-item {
-        margin-top: 132px;
-        margin-left: 32%;
-    }
-
-    #lookbook-item {
-        margin-top: 255px;
-        margin-left: -11%;
-        transform: rotate(-90deg);
-    }
-
-    #nosotros-item {
-        margin-top: 265px;
-        margin-left: 61%;
-        transform: rotate(90deg);
-    }
-
-    #diario-item {
-        margin-top: 395px;
-        margin-left: 32%;
-    }
-    
-    #est {
-        font-size: 25px;
-        margin-top: 120px;
-        margin-left: 6%;
-    }
-    
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0px;
-        right: 2%;
-        font-family: "Bebas Neue";
-        font-size: 36px;
-        margin-left: 50px;
+    .sidenav {
+        padding-top: 100px;
     }
 }
 
-/* iPhone 6s Plus Size */
-@media (max-width: 420px) and (min-width:376px) {
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) and (min-width: 414px){
     #menu-icon {
-        font-family: 'Bebas Neue';
-        font-size: 1.25em;
-        text-align: left;
-        margin-top: 22.5px;
-        margin-left: 80%;
-        height: 45px;
+        font-size: 30px;
+        top: 17px;
     }
     
-    #mySidenav {
-        padding-top: 50%;
+    #cart-icon {
+        font-size: 28px;
+        margin-left: 105px;
+        top: 16px;
     }
     
-    #cerrar {
-        font-size: 1.25em;
-        text-align: left;
-        margin-top: 20px;
-        margin-left: 0px;
-        text-decoration: none;
-    }
-    
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0px;
-        right: 2%;
-        font-family: "Bebas Neue";
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    
-    #giant-icon {
-        margin-top: 170px;
-        margin-left: 22%;
-        max-height: 220px;
-    }
-
-    #tienda-item {
-        margin-top: 131px;
-        margin-left: 34%;
-
-    }
-
-    #lookbook-item {
-        margin-top: 255px;
-        margin-left: -4%;
-        transform: rotate(-90deg);
-    }
-
-    #nosotros-item {
-        margin-top: 265px;
-        margin-left: 58.5%;
-        transform: rotate(90deg);
-    }
-
-    #diario-item {
-        margin-top: 395px;
-        margin-left: 34%;
-    }
-    
-    #est {
-        font-size: 25px;
-        margin-top: 120px;
-        margin-left: 8%;
+    .closebtn {
+        font-size: 30px;
+        margin-right: -10px;
+        margin-bottom: 50px;
     }
 }
 
