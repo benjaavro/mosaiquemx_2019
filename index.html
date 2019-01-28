@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!--- --->
+      
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      
+        <!--- Styles --->  
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="stylesheet" href="animation.css" type="text/css">
+      
+        <!--- Fonts --->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <style>@import url(FONTS/BebasNeue.otf)</style>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      
+    </head>
+    <body>
+        <!--- HIDDEN NAV BAR --->
+        <nav id="mySidenav" class="sidenav" data-topbar data-options="scrolltop:false">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times" id="close-icon"></i></a>
+            <a id="opmenu" class="hvr-inicio" href="index.html">| INICIO |</a>
+            <a id="opmenu" class="hvr-tienda" href="#">| TIENDA |</a>
+            <a id="opmenu" class="hvr-lookbook" href="#">| LOOKBOOK |</a>
+            <a id="opmenu" class="hvr-nosotros" href="#">| NOSOTROS |</a>
+            <a id="opmenu" class="hvr-diario" href="#">| DIARIO |</a>
+        </nav>
+      
+        <!--- TOP BAR --->  
+        <div class="nav container-fluid">
+            <div class="col-6">
+                <a href="index.html">
+                    <img src="IMG/BRAND-TR-W.png" id="logo-nav">
+                </a>
+            </div>
+            <div class="col-6">
+                <div class="scrolldown">
+                    <div class="row middle-xs between-xs">
+                        <div class="scrolldown_icon">
+                            <a href="#">
+                                <span class="nav-icon" id="cart-icon" ><i class="fas fa-shopping-cart"></i></span>
+                            </a>
+                            <a  onclick="openNav()" href="#">
+                                <span class="nav-icon" id="menu-icon" ><i class="fas fa-bars"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>  
+    
+        <!--- XPERIENCIAL MENU --->  
+        <div class="col-12 container-fluid main">
+            <h2 class="subA left"></h2>
+                <div class="dope-menu">
+                    <a href="#"><span class="dope-menu-item hvr-tienda-item" id="tienda-item" onclick="transition()">TIENDA</span></a>
+                    <a href="#"><span class="dope-menu-item hvr-lookbook-item" id="lookbook-item" onclick="transition()">LOOKBOOK</span></a>
+                    <a href="#"><span class="dope-menu-item hvr-nosotros-item" id="nosotros-item" onclick="transition()">NOSOTROS</span></a>
+                    <a href="#"><span class="dope-menu-item hvr-diario-item" id="diario-item" onclick="transition()">DIARIO</span></a>
+                    <img onmouseover="rotar()" id="giant-icon" src="IMG/BRAND-I-TR.png">
+                    <p id="est">MOSAIQUE MÉXICO<br>EST. 2016</p>
+                </div>
+            <h2 class="subA right"></h2>
+        </div>
+      
+      
+    
+        <!--- FOOTER --->
+            <div class="container-fluid" id="brand-footer">
+                <div class="container row" id="footer-content">
+                    <div class="col-lg-3 col-sm-12" id="f-s1">
+                        <span>100%<br>HECHO EN<br>MÉXICO</span>
+                    </div>
+                    <div class="col-lg-6 col-sm-12" id="f-s2">
+                        <span>REDES SOCIALES</span>
+                        <div class="row" id="sn-row">
+                            <a href="#" target="_blank"><div class="button-sn hvr-sweep-to-bottom" id="sn1">FB</div></a>
+                            <a href="https://www.instagram.com/mosaiquemx/" target="_blank"><div class="button-sn hvr-sweep-to-bottom" id="sn2" target="_blank">IG</div></a>
+                            <a href="#"><div class="button-sn hvr-sweep-to-bottom" id="sn3" target="_blank">TW</div></a>
+                            <a href="#"><div class="button-sn hvr-sweep-to-bottom" id="sn4" target="_blank">SC</div></a>
+                        </div> 
+                        <img src="IMG/BRAND-TR-W.png" id="logo-footer">
+                    </div>
+                    <div class="col-lg-3 col-sm-12" id="f-s3">
+                        <span>@MOSAIQUEMX<br>#MOSAIQUEMX</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="dev-footer">
+                <div class="dev-info">
+                    <span id="dev-text">Diseño & Desarrollo:<br>Benjamín Ávila (<a href="https://www.instagram.com/unusual_devguy/" target="_blank" id="ig-link">@unusual_devguy</a>)<br>México, 2018.</span>
+                </div>
+            </div>
+    
+      
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.height = "100%";
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mySidenav").style.height = "0";
+    }  
+    
+    var repeater;
+        
+    function rotar() {
+        document.getElementById('giant-icon').classList.add('rotate');
+        
+    }
+        
+    function transition() {
+        document.getElementById('giant-icon').classList.add('rotate');
+    }
+    </script>  
+  </body>
+</html>

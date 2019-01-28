@@ -1,0 +1,1082 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url(FONTS/BebasNeue.otf);
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+* {
+    letter-spacing: 10px;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-icon {
+    color: white;
+    position: relative;
+    top: 12px;
+}
+
+.nav-icon:hover {
+    color: darkgrey;
+}
+
+#menu-icon {
+    font-size: 35px;
+    width: 40px;
+    top: 14px;
+}
+
+#cart-icon {
+    font-size: 28px;
+    margin-left: 510px;
+}
+
+.closebtn {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-right: 20px;
+    height: 55px;
+    z-index: 2;
+}
+
+.sidenav {
+    height: 0;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-y: hidden;
+    transition: 1s;
+    padding-top: 15%;;
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fffaff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-family: "Bebas Neue";
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#opmenu {
+    font-family: "Bebas Neue";
+}
+
+.main {
+    height: 710px;
+    background-color: white;
+}
+
+.dope-menu {
+    margin: auto;
+}
+
+#giant-icon {
+    margin-top: 170px;
+    margin-left: 440px;
+    max-height: 350px;
+}
+
+.dope-menu-item {
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    color: black;
+    position: absolute;
+}
+
+#tienda-item {
+    margin-top: 125px;
+    margin-left: 560px;
+    
+}
+
+#lookbook-item {
+    margin-top: 325px;
+    margin-left: 325px;
+    transform: rotate(-90deg);
+}
+
+#nosotros-item {
+    margin-top: 325px;
+    margin-left: 743px;
+    transform: rotate(90deg);
+}
+
+#diario-item {
+    margin-top: 535px;
+    margin-left: 563px;
+}
+
+#est {
+    font-family: "Bebas Neue";
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 90px;
+    line-height: 30px;
+}
+
+#logo-nav {
+    max-height: 50px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+#div-2 {
+    height: 710px;
+    background-color: white;
+    background-attachment: scroll;
+    padding-top: 100px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+/* iPhone 6s Size */
+@media (max-width: 375px) {
+    .main {
+        height: 666px;
+        background-color: white;
+        width: 100%;
+    }
+    
+    #menu-icon {
+        font-family: 'Bebas Neue';
+        font-size: 1.25em;
+        text-align: left;
+        margin-top: 22.5px;
+        margin-left: 70%;
+        height: 45px;
+    }
+    
+    #mySidenav {
+        padding-top: 50%;
+    }
+    
+    #cerrar {
+        font-size: 45px;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: -10px;
+        text-decoration: none;
+    }
+    
+    #giant-icon {
+        margin-top: 170px;
+        margin-left: 18%;
+        max-height: 220px;
+    }
+
+    #tienda-item {
+        margin-top: 132px;
+        margin-left: 32%;
+    }
+
+    #lookbook-item {
+        margin-top: 255px;
+        margin-left: -11%;
+        transform: rotate(-90deg);
+    }
+
+    #nosotros-item {
+        margin-top: 265px;
+        margin-left: 61%;
+        transform: rotate(90deg);
+    }
+
+    #diario-item {
+        margin-top: 395px;
+        margin-left: 32%;
+    }
+    
+    #est {
+        font-size: 25px;
+        margin-top: 120px;
+        margin-left: 6%;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0px;
+        right: 2%;
+        font-family: "Bebas Neue";
+        font-size: 36px;
+        margin-left: 50px;
+    }
+}
+
+/* iPhone 6s Plus Size */
+@media (max-width: 420px) and (min-width:376px) {
+    #menu-icon {
+        font-family: 'Bebas Neue';
+        font-size: 1.25em;
+        text-align: left;
+        margin-top: 22.5px;
+        margin-left: 80%;
+        height: 45px;
+    }
+    
+    #mySidenav {
+        padding-top: 50%;
+    }
+    
+    #cerrar {
+        font-size: 1.25em;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-decoration: none;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0px;
+        right: 2%;
+        font-family: "Bebas Neue";
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    #giant-icon {
+        margin-top: 170px;
+        margin-left: 22%;
+        max-height: 220px;
+    }
+
+    #tienda-item {
+        margin-top: 131px;
+        margin-left: 34%;
+
+    }
+
+    #lookbook-item {
+        margin-top: 255px;
+        margin-left: -4%;
+        transform: rotate(-90deg);
+    }
+
+    #nosotros-item {
+        margin-top: 265px;
+        margin-left: 58.5%;
+        transform: rotate(90deg);
+    }
+
+    #diario-item {
+        margin-top: 395px;
+        margin-left: 34%;
+    }
+    
+    #est {
+        font-size: 25px;
+        margin-top: 120px;
+        margin-left: 8%;
+    }
+}
+
+.c_banner1 {
+    width: 90%;
+    height: 500px;
+    background-color: #004d77;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.sub {
+    z-index: 0;
+    position: absolute;
+    top: 200px;
+}
+
+.subA {
+    z-index: 0;
+    position: absolute;
+    top: 400px;
+}
+
+.subA, .left {
+    margin-left: 15px;
+}
+
+.subA, .right {
+    margin-right: 15px;
+}
+
+.left {
+    transform: rotate(-90deg);
+    left: -65px;
+    
+}
+
+.right {
+    transform: rotate(90deg);
+    right: -65px;
+}
+
+
+#s1-tittle {
+    color: white;
+    font-size: 3em;
+    letter-spacing: 30px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#p1-text {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.inside_banner {
+    margin: auto;
+    margin-top: 10px; 
+    height: 300px;
+    width: 85%;
+    background-color: none;
+}
+
+@media (max-width: 576px) {
+    #div-1 {
+        height: 500px;
+        background-color: white;
+        background-attachment: scroll;
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .c_banner1 {
+        width: 90%;
+        height: 480px;
+        background-color: #004d77;
+        margin: auto;
+        padding-top: 50px;
+    }
+    
+    #s1-tittle {
+        color: white;
+        font-size: 2.5em;
+        letter-spacing: 30px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    
+    #p1-text {
+        color: white;
+        font-size: 0.99em;
+        font-family: 'Roboto Mono', monospace;
+        letter-spacing: 3px;
+    }
+    
+    .sub {
+        font-size: 0em;
+        z-index: 0;
+        color: none;
+    }
+
+}
+
+.sub2 {
+    z-index: 0;
+    position: absolute;
+    top: 333px;
+}
+
+.left2 {
+    transform: rotate(-90deg);
+    left: -50px;
+    
+}
+
+.right2{
+    transform: rotate(90deg);
+    right: -50px;
+}
+
+.c_banner2 {
+    width: 90%;
+    height: 500px;
+    background-image: url(IMG/BACK.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#p2-text-A {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#tienda-button {
+    margin: auto;
+    margin-top: 100px;
+    z-index: 0;
+    width: 280px;
+    height: 70px;
+    background-color: none;
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    border: 6px solid white;
+    padding-top: 5px;
+}
+
+.button1-text {
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.button1-text:hover {
+    color: white;
+}
+
+@media (max-width: 576px) {
+    #div-2 {
+    }
+    
+    .c_banner2 {
+        width: 90%;
+        height: 480px;
+        background-position: center;
+        background-image: url(IMG/BACK2.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 120%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    
+    #p2-text-A {
+        color: white;
+        font-size: 0.99em;
+        font-family: 'Roboto Mono', monospace;
+        letter-spacing: 3px;
+    }
+    
+    .sub2 {
+        font-size: 0em;
+        z-index: 0;
+        color: none;
+    }
+    
+    #tienda-button {
+        margin: auto;
+        margin-top: 20px;
+        z-index: 0;
+        width: 230px;
+        height: 55px;
+        background-color: none;
+        font-family: 'Bebas Neue';
+        font-size: 1.5em;
+        border: 6px solid white;
+        padding-top: 5px;
+    }
+    
+    .button1-text {
+        margin-left: 10px;
+        text-align: center;
+        color: black;
+    }
+}
+
+#div-3 {
+    height: 410px;
+    background-color: white;
+    background-attachment: scroll;
+    padding-top: 100px;
+}
+
+.c_banner3 {
+    width: 90%;
+    height: 300px;
+    background-color: #e44165;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#p3-text {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+#lookbook-button {
+    margin: auto;
+    margin-top: 50px;
+    z-index: 0;
+    width: 380px;
+    height: 70px;
+    background-color: none;
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    border: 6px solid white;
+    padding-top: 5px;
+}
+
+
+.button2-text {
+    margin-left: 10px;
+    text-align: center;
+    color: #e44165;
+}
+
+.button2-text:hover {
+    color: white;
+}
+
+.sub3 {
+    z-index: 0;
+    position: absolute;
+    top: 230px;
+}
+
+.left3 {
+    transform: rotate(-90deg);
+    left: -75px;
+    
+}
+
+.right3{
+    transform: rotate(90deg);
+    right: -75px;
+    top: 235px;
+}
+
+@media (max-width: 576px) {
+    #div-3 {
+        height: 530px;
+        background-color: white;
+        background-attachment: scroll;
+        padding-top: 100px;
+    }
+
+    .c_banner3 {
+        width: 90%;
+        height: 480px;
+        background-color: #e44165;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    #lookbook-button {
+        margin: auto;
+        margin-top: 80px;
+        z-index: 0;
+        width: 220px;
+        height: 70px;
+        background-color: none;
+        font-family: 'Bebas Neue';
+        font-size: 1.25em;
+        border: 6px solid white;
+        padding-top: 0px;
+    }
+
+
+    .button2-text {
+        margin-left: 10px;
+        text-align: center;
+        color: #e44165;
+    }
+
+    .button2-text:hover {
+        color: white;
+    }
+    
+    .sub3 {
+        color: none;
+        z-index: 0;
+        position: absolute;
+        top: 230px;
+        font-size: 0;
+    }
+    
+    #p3-text {
+        margin-top: 60px;
+        color: white;
+        font-size: 0.99em;
+    }
+}
+
+#div-4 {
+    height: 710px;
+    background-color: white;
+    background-attachment: scroll;
+    padding-top: 100px;
+}
+
+.c_banner4 {
+    width: 41%;
+    height: 500px;
+    background-color: #fbc65c;
+    margin: auto;
+    padding-top: 50px;
+    float: left;
+    margin-left: 65px;
+    text-align: center;
+}
+
+.c_banner5 {
+    width: 41%;
+    height: 500px;
+    background-color: #2dc76d;
+    margin: auto;
+    padding-top: 50px;
+    float: right;
+    margin-right: 65px;
+    text-align: center;
+}
+
+
+.sub4 {
+    z-index: 0;
+    position: absolute;
+    top: 333px;
+}
+
+.left4 {
+    transform: rotate(-90deg);
+    left: -75px;
+    
+}
+
+.right4 {
+    transform: rotate(90deg);
+    right: -55px;
+}
+
+#s2-tittle {
+    color: white;
+    font-size: 3em;
+    letter-spacing: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#p2-text {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#conocenos-button {
+    margin: auto;
+    margin-top: 60px;
+    z-index: 0;
+    width: 380px;
+    height: 70px;
+    background-color: none;
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    border: 6px solid white;
+    padding-top: 5px;
+}
+
+
+.button3-text {
+    margin-left: 10px;
+    text-align: center;
+    color: #fbc65c;
+}
+
+.button3-text:hover {
+    color: white;
+}
+
+#noticias-button {
+    margin: auto;
+    margin-top: 25px;
+    z-index: 0;
+    width: 380px;
+    height: 70px;
+    background-color: none;
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    border: 6px solid white;
+    padding-top: 5px;
+}
+
+
+.button4-text {
+    margin-left: 10px;
+    text-align: center;
+    color: #2dc76d;
+}
+
+.button4-text:hover {
+    color: white;
+}
+
+@media (max-width: 576px) {
+    #div-4 {
+        height: 1400px;
+        background-color: white;
+        background-attachment: scroll;
+        padding-top: 100px;
+    }
+    
+    .c_banner4 {
+        width: 90%;
+        height: 400px;
+        background-color: #fbc65c;
+        padding-top: 50px;
+        margin-left: 15px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .c_banner5 {
+        width: 90%;
+        height: 45  0px;
+        background-color: #2dc76d;
+        padding-top: 50px;
+        margin-right: 15px;
+        margin-top: 230px;
+        text-align: center;
+    }
+    
+    .sub4 {
+        color: none;
+        z-index: 0;
+        position: absolute;
+        top: 230px;
+        font-size: 0;
+    }
+
+    #s2-tittle {
+        color: white;
+        font-size: 1.5em;
+        letter-spacing: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #p2-text {
+        color: white;
+        font-size: 0.99em;
+        font-family: 'Roboto Mono', monospace;
+        letter-spacing: 8px;
+    }
+    
+    #conocenos-button {
+        margin: auto;
+        margin-top: 30px;
+        z-index: 0;
+        width: 250px;
+        height: 60px;
+        background-color: none;
+        font-family: 'Bebas Neue';
+        font-size: 1.5em;
+        border: 6px solid white;
+        padding-top: 8px;
+    }
+
+
+    .button3-text {
+        margin-left: 10px;
+        text-align: center;
+        color: #fbc65c;
+    }
+    
+    #noticias-button {
+        margin: auto;
+        margin-top: 30px;
+        z-index: 0;
+        width: 250px;
+        height: 60px;
+        background-color: none;
+        font-family: 'Bebas Neue';
+        font-size: 1.5em;
+        border: 6px solid white;
+        padding-top: 8px;
+    }
+
+
+    .button4-text {
+        margin-left: 10px;
+        text-align: center;
+        color: #2dc76d;
+    }
+}
+
+#brand-footer {
+    height: 350px;
+    background-color: black;
+    padding-top: 25px;
+}
+
+#footer-content {
+    height: 300px;
+    background-color: black;
+    margin: auto;
+}
+
+#f-s1 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 90px;
+}
+
+#f-s2 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 30px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-sn {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    color: black;
+    background-color: white;
+}
+
+#sn-row {
+    margin-left: 88px;
+    margin-top: 20px;
+}
+
+#sn1 {
+    padding-top: 3px;
+    padding-left: 1px;
+    margin-left: 20px;
+    float: left;
+}
+
+#sn2 {
+    padding-top: 3px;
+    padding-left: 1px;
+    margin-left: 20px;
+    float: left;
+}
+
+#sn3 {
+    padding-top: 3px;
+    padding-left: 1px;
+    margin-left: 20px;
+    float: left;
+}
+
+#sn4 {
+    padding-top: 3px;
+    padding-left: 1px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo-footer {
+    max-height: 90px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#f-s3 {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 100px;
+}
+
+
+#dev-footer {
+    height: 100px;
+    background-color: white;
+}
+
+.dev-info {
+    height: 80px;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: black;
+}
+
+#dev-text {
+    letter-spacing: 1px;
+}
+
+#ig-link {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#ig-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+   #brand-footer {
+        height: 550px;
+        background-color: black;
+        padding-top: 25px;
+    }
+
+    #footer-content {
+        height: 300px;
+        background-color: black;
+        margin: auto;
+    }
+
+    #f-s1 {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'Roboto Mono', monospace;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #f-s2 {
+        color: white;
+        font-size: 1.075em;
+        font-family: 'Roboto Mono', monospace;
+        padding-top: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .button-sn {
+        width: 60px;
+        height: 60px;
+        border: 4px solid white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.25em;
+        letter-spacing: 2px;
+        color: black;
+        background-color: white;
+    }
+
+    #sn-row {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    #sn1 {
+        padding-top: 3px;
+        padding-left: 1px;
+        padding-top: 9px;
+        margin-left: 0px;
+        float: left;
+    }
+
+    #sn2 {
+        padding-top: 3px;
+        padding-left: 1px;
+        padding-top: 9px;
+        margin-left: 50px;
+        float: left;
+    }
+
+    #sn3 {
+        padding-top: 3px;
+        padding-left: 1px;
+        padding-top: 9px;
+        margin-left: 50px;
+        float: left;
+    }
+
+    #sn4 {
+        display: none;
+    }
+
+    #logo-footer {
+        max-height: 90px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    #f-s3 {
+        color: white;
+        font-size: 0.9em;
+        font-family: 'Roboto Mono', monospace;
+        padding-top: 40px;
+        text-align: center;
+    }
+    
+    #dev-footer {
+        height: 10px;
+        background-color: white;
+    }
+
+    .dev-info {
+        height: 80px;
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 14px;
+        color: black;
+    }
+}
