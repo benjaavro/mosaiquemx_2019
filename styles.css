@@ -359,44 +359,30 @@ a:hover {
 }
 
 .button-sn {
-    width: 60px;
+    width: 170px;
     height: 60px;
     border: 4px solid white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.25em;
+    font-size: 0.9em;
     letter-spacing: 2px;
     color: black;
     background-color: white;
 }
 
 #sn-row {
-    margin-left: 88px;
+    margin-left: 60px;
     margin-top: 20px;
 }
 
 #sn1 {
-    padding-top: 3px;
+    padding-top: 8px;
     padding-left: 1px;
     margin-left: 20px;
     float: left;
 }
 
 #sn2 {
-    padding-top: 3px;
-    padding-left: 1px;
-    margin-left: 20px;
-    float: left;
-}
-
-#sn3 {
-    padding-top: 3px;
-    padding-left: 1px;
-    margin-left: 20px;
-    float: left;
-}
-
-#sn4 {
-    padding-top: 3px;
+    padding-top: 8px;
     padding-left: 1px;
     margin-left: 20px;
     float: left;
@@ -570,3 +556,156 @@ a:hover {
     color: white;
     letter-spacing: 5px;
 }
+
+#best-sellers {
+    height: 550px;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#bestsellers-tittle {
+    font-size: 2.5em;
+    
+}
+
+.bestseller-img {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    float: left;
+}
+
+#comprar-bestsellers{
+    margin-top: 40px;
+    margin-left: 35%;
+    height: 50px;
+    width: 280px;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 1.8em;
+}
+
+#coleccion {
+    height: 700px;
+    background-color: #878787;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#text-coleccion {
+    color: white;
+    text-align: left;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+#vercoleccion-button {
+    margin-top: 20px;
+    height: 50px;
+    width: 360px;
+    background-color: #878787;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 1.8em;
+}
+
+#vercoleccion-button:hover {
+    color: #878787;
+}
+
+#img-coleccion {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    float: left;
+}
+
+#ig-feed {
+    height: 550px;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#igfeed-tittle {
+    font-size: 2.5em;
+    
+}
+
+.igfeed-img {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    float: left;
+}
+
+#igvisit-button {
+    margin-top: 20px;
+    margin-left: 35%;
+    height: 50px;
+    width: 280px;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 1.8em;
+}
+
+#ig-username {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 410px;
+    text-align: center;
+}
+
+#ig-username:hover {
+    text-decoration: underline;
+}
+
+#form-banner {
+    background-color: #bababa;
+    height: 250px;
+    text-align: center;
+}
+
+#form_tittle {
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    color: white;
+    padding-top: 62px;
+}
+
+#input-email {
+    width: 900px;
+    height: 40px;
+    color: #bababa;
+    text-align: center;
+}
+
+#input-email::placeholder {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#enviar-button {
+    margin-top: 20px;
+    margin-left: 500px;
+    height: 50px;
+    width: 260px;
+    background-color: #bababa;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 1.8em;
+    position: absolute;
+}
+
+#enviar-button:hover {
+    color: #bababa;
+}
+
