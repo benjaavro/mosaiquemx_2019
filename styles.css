@@ -716,3 +716,85 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.slide-lookbook {
+    height: 710px;
+    background-image: url(IMG/SLIDER/SLIDE3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slide-nosotros {
+    height: 710px;
+    background-image: url(IMG/SLIDER/SLIDE4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title-secciontienda {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 10em;
+    margin-left: 400px;
+    letter-spacing: 25px;
+}
+
+#text-secciontienda {
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    line-height: 45px;
+}
+
+#visitartienda-button {
+    margin-top: 20px;
+    height: 50px;
+    width: 360px;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 1.8em;
+    margin-left: 36%;
+}
+
+#visitartienda-button:hover {
+    color: black;
+}
+
+#title-seccionlookbook {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 10em;
+    margin-left: 280px;
+    letter-spacing: 25px;
+}
+
+#text-seccionlookbook {
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    line-height: 45px;
+}
+
+#verlookbook-button {
+    margin-top: 20px;
+    height: 50px;
+    width: 360px;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 1.8em;
+    margin-left: 36%;
+}
+
+#visitarlookbook-button:hover {
+    color: black;
+}
