@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!--- --->
+      
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      
+        <!--- Styles --->  
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="stylesheet" href="animation.css" type="text/css">
+        <link rel="stylesheet" href="STYLES/tienda-styles.css" type="text/css">
+      
+        <!--- Fonts --->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <style>@import url(FONTS/BebasNeue.otf)</style>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        
+        <script src="slider.js"></script>
+      
+    </head>
+    <body>
+        <!--- HIDDEN NAV BAR --->
+        <nav id="mySidenav" class="sidenav" data-topbar data-options="scrolltop:false">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times" id="close-icon"></i></a>
+            <a id="opmenu" class="hvr-inicio opcion_inicio" href="index.html">| INICIO |</a>
+            <a id="opmenu" class="hvr-tienda" href="tienda.html">| TIENDA |</a>
+            <a id="opmenu" class="hvr-lookbook" href="lookbook.html">| LOOKBOOK |</a>
+            <a id="opmenu" class="hvr-nosotros" href="nosotros.html">| NOSOTROS |</a>
+            <a id="opmenu" class="hvr-diario" href="diario.html">| DIARIO |</a>
+        </nav>
+      
+        <!--- TOP BAR --->  
+        <div class="nav-tienda nav container-fluid">
+            <div class="col-6">
+                <a href="index.html">
+                    <img src="IMG/BRAND-TR-W.png" id="logo-nav">
+                </a>
+            </div>
+            <div class="col-6">
+                <div class="scrolldown">
+                    <div class="row middle-xs between-xs">
+                        <div class="scrolldown_icon">
+                            <a href="#">
+                                <span class="nav-icon" id="cart-icon" ><i class="fas fa-shopping-cart"></i></span>
+                            </a>
+                            <a  onclick="openNav()" href="#">
+                                <span class="nav-icon" id="menu-icon" ><i class="fas fa-bars"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>  
+
+       <!--- JUMBOTRON --->
+       <div class="col-12 container-fluid tienda-jumbotron">
+            <h1 id="title-temporada">T0010</h1>
+            <p id="subtitle-temporada">TEMPORADA #2</p>
+            <p id="descripcion-temporada">Aquí va una pequeña descripción<br>de los productos de T0010</p>
+            <a href="#separador1">
+                <p id="comprar-abajo">C0MPRAR</p>
+            </a>
+        </div>
+        
+        <!--- SEPARADOR PLAYERAS HOMBRE --->
+        <div class="col-12 container-fluid separador" id="separador1">
+            <h1 class="title-separador">PLAYERAS</h1>
+        </div>
+        
+        <!--- SECCION PLAYERAS HOMBRE --->
+        <div class="col-12 container-fluid catalogo" id="catalogo-playeras">
+            
+        </div>
+        
+        <!--- SEPARADOR SUDADERAS --->
+        <div class="col-12 container-fluid separador">
+            <h1 class="title-separador">SUDADERAS</h1>
+        </div>
+        
+        <!--- SECCION SUDADERAS --->
+        <div class="col-12 container-fluid catalogo" id="catalogo-playeras">
+            
+        </div>
+    
+        <!--- FOOTER --->
+            <div class="container-fluid" id="brand-footer">
+                <div class="container row" id="footer-content">
+                    <div class="col-lg-3 col-sm-12" id="f-s1">
+                        <span>100%<br>HECHO EN<br>MÉXICO</span>
+                    </div>
+                    <div class="col-lg-6 col-sm-12" id="f-s2">
+                        <span>REDES SOCIALES</span>
+                        <div class="row" id="sn-row">
+                            <a href="#" target="_blank"><div class="button-sn hvr-sweep-to-bottom" id="sn1">Facebook</div></a>
+                            <a href="https://www.instagram.com/mosaiquemx/" target="_blank"><div class="button-sn hvr-sweep-to-bottom" id="sn2" target="_blank">Instagram</div></a>
+                        </div>
+                        <a href="index.html">
+                            <img src="IMG/BRAND-TR-W.png" id="logo-footer">
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-12" id="f-s3">
+                        <span>@MOSAIQUEMX<br>#MOSAIQUEMX</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="dev-footer">
+                <div class="dev-info">
+                    <span id="dev-text">Diseño & Desarrollo:<br>Benjamín Ávila (<a href="https://www.instagram.com/unusual_devguy/" target="_blank" id="ig-link">@unusual_devguy</a>)<br>México, 2018.</span>
+                </div>
+            </div>
+    
+      
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.height = "100%";
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mySidenav").style.height = "0";
+    }
+    </script>
+    
+    <!--- SMOOTH SCROLL ANIMATION --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script> 
+  </body>
+</html>

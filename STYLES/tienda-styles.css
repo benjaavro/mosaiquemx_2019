@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url(FONTS/BebasNeue.otf);
+}
+
+.nav-tienda {
+    width: 100%;
+    background-color: #004d77;
+    color: white;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+
+.tienda-jumbotron {
+    height: 800px;
+    background-image: url(../IMG/MEDIA/tienda_jumbotron.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cart-icon {
+    margin-left: 590px;
+}
+
+#title-temporada {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 6em;
+    text-align: center;
+    padding-top: 270px;
+    margin-bottom: -10px;
+    transition: transform .2s; /* Animation */
+}
+
+#subtitle-temporada {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 7px;
+    transition: transform .2s; /* Animation */
+}
+
+#descripcion-temporada{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#comprar-abajo:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    text-decoration: underline;
+}
+
+#comprar-abajo {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 180px;
+    letter-spacing: 7px;
+    transition: transform .2s; /* Animation */
+}
+
+.separador {
+    height: 100px;
+    background-color: #004d77;
+}
+
+.title-separador {
+    color: white;
+    font-size: 2.6em;
+    font-family: 'Bebas Neue';
+    margin-left: 30px;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+
+#catalogo-playeras {
+    background-color: white;
+    height: 400px;
+}

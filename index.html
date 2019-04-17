@@ -27,10 +27,10 @@
         <nav id="mySidenav" class="sidenav" data-topbar data-options="scrolltop:false">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times" id="close-icon"></i></a>
             <a id="opmenu" class="hvr-inicio opcion_inicio" href="index.html">| INICIO |</a>
-            <a id="opmenu" class="hvr-tienda" href="#">| TIENDA |</a>
-            <a id="opmenu" class="hvr-lookbook" href="#">| LOOKBOOK |</a>
-            <a id="opmenu" class="hvr-nosotros" href="#">| NOSOTROS |</a>
-            <a id="opmenu" class="hvr-diario" href="#">| DIARIO |</a>
+            <a id="opmenu" class="hvr-tienda" href="tienda.html">| TIENDA |</a>
+            <a id="opmenu" class="hvr-lookbook" href="lookbook.html">| LOOKBOOK |</a>
+            <a id="opmenu" class="hvr-nosotros" href="nosotros.html">| NOSOTROS |</a>
+            <a id="opmenu" class="hvr-diario" href="diario.html">| DIARIO |</a>
         </nav>
       
         <!--- TOP BAR --->  
@@ -61,10 +61,18 @@
     <div class="col-12 container-fluid main">
             <h2 class="subA left"></h2>
                 <div class="dope-menu">
-                    <a href="#"><span class="dope-menu-item hvr-tienda-item" id="tienda-item" >TIENDA</span></a>
-                    <a href="#"><span class="dope-menu-item hvr-lookbook-item" id="lookbook-item">LOOKBOOK</span></a>
-                    <a href="#"><span class="dope-menu-item hvr-nosotros-item" id="nosotros-item" >NOSOTROS</span></a>
-                    <a href="#"><span class="dope-menu-item hvr-diario-item" id="diario-item" >DIARIO</span></a>
+                    <a href="tienda.html">
+                        <span class="dope-menu-item hvr-tienda-item" id="tienda-item" >TIENDA</span>
+                    </a>
+                    <a href="lookbook.html">
+                        <span class="dope-menu-item hvr-lookbook-item" id="lookbook-item">LOOKBOOK</span>
+                    </a>
+                    <a href="nosotros.html">
+                        <span class="dope-menu-item hvr-nosotros-item" id="nosotros-item" >NOSOTROS</span>
+                    </a>
+                    <a href="diario.html">
+                        <span class="dope-menu-item hvr-diario-item" id="diario-item" >DIARIO</span>
+                    </a>
                     <img onmouseover="rotar()" id="giant-icon" src="IMG/BRAND-IW-TR.png">
                     <p id="est">MOSAIQUE MÉXICO<br>EST. 2016</p>
                 </div>
@@ -77,9 +85,11 @@
         <h2 id="text-secciontienda">
             Visita la tienda<br>oficial de Mosaique México
         </h2>
-        <button class="hvr-sweep-to-bottom-white" id="visitartienda-button">
-            VISITAR
-        </button>
+        <a href="tienda.html">
+            <button class="hvr-sweep-to-bottom-white" id="visitartienda-button">
+                VISITAR
+            </button>
+        </a>
     </div>
 
    <!--- SECCION LOOKBOOK --->
@@ -88,9 +98,11 @@
         <h2 id="text-seccionlookbook">
             Visita la tienda<br>oficial de Mosaique México
         </h2>
-        <button class="hvr-sweep-to-bottom-white" id="verlookbook-button">
-            VER LOOKBOOK
-        </button>  
+        <a href="lookbook.html">
+            <button class="hvr-sweep-to-bottom-white" id="verlookbook-button">
+                VER LOOKBOOK
+            </button>
+        </a>  
     </div>
      
      <!--- BANNER NO 1 --->
@@ -98,16 +110,6 @@
             <h1 id="quees_tittle">¿Qué es Mosaique México?</h1>
             <p id="quees_text">Una marca mexicana, simple y elegante de ropa casual</p>
         </div>
-      
-    <!--- SECCION NOSOTROS --->
-    <div class="slide-nosotros col-12 container-fluid" style="padding-top: 90px;">
-        <p id="title-seccionnosotros">NOSOTROS</p>
-        <button class="hvr-sweep-to-bottom-white" id="conocenos-button">
-            CONÓCENOS
-        </button>   
-    </div>
-      
-        
         
         <!--- BEST SELLERS --->
         <div class="container-fluid" id="best-sellers">
@@ -124,11 +126,27 @@
                </div>   
             </div>
             <div class="col-lg-12">
-                <button class="hvr-sweep-to-bottom" id="comprar-bestsellers">
-                    COMPRAR
-                </button>    
+               <a href="tienda.html">
+                   <button class="hvr-sweep-to-bottom" id="comprar-bestsellers">
+                        COMPRAR
+                    </button>    
+               </a>
             </div>
         </div>
+      
+    <!--- SECCION NOSOTROS --->
+    <div class="slide-nosotros col-12 container-fluid" style="padding-top: 90px;">
+        <p id="title-seccionnosotros">NOSOTROS</p>
+        <a href="nosotros.html">
+            <button class="hvr-sweep-to-bottom-white" id="conocenos-button">
+                CONÓCENOS
+            </button>   
+        </a>
+    </div>
+      
+        
+        
+        
         
         <!--- COLECCION --->
         <div class="container-fluid" id="coleccion">
@@ -137,9 +155,11 @@
                     <h2 id="text-coleccion">
                         Nuestra ropa<br>es ideal para<br>el uso diario
                     </h2>
-                    <button class="hvr-sweep-to-bottom-white" id="vercoleccion-button">
-                        VER COLECCIÓN
-                    </button>
+                    <a href="tienda.html">
+                        <button class="hvr-sweep-to-bottom-white" id="vercoleccion-button">
+                            VER COLECCIÓN
+                        </button>
+                    </a>
                 </div>
                 <div class="col-lg-6" style="padding-top: 70px">
                     <img src="IMG/MEDIA/twins.jpg" alt="" id="img-coleccion">
@@ -207,8 +227,10 @@
                         <div class="row" id="sn-row">
                             <a href="#" target="_blank"><div class="button-sn hvr-sweep-to-bottom" id="sn1">Facebook</div></a>
                             <a href="https://www.instagram.com/mosaiquemx/" target="_blank"><div class="button-sn hvr-sweep-to-bottom" id="sn2" target="_blank">Instagram</div></a>
-                        </div> 
-                        <img src="IMG/BRAND-TR-W.png" id="logo-footer">
+                        </div>
+                        <a href="index.html">
+                            <img src="IMG/BRAND-TR-W.png" id="logo-footer">
+                        </a>
                     </div>
                     <div class="col-lg-3 col-sm-12" id="f-s3">
                         <span>@MOSAIQUEMX<br>#MOSAIQUEMX</span>
