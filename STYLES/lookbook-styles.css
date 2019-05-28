@@ -1,0 +1,19 @@
+.nav-lookbook {
+    background-color: #e44165;
+}
+
+.lookbook-jumbotron {
+    background-color: lightgray;
+    height: 230px;
+    text-align: center;
+    padding-top: 120px;
+} 
+
+.lookbook-title {
+    color: #e44165;
+    font-size: 4.25em;
+}
+
+.collection {
+    height: 400px;
+}
