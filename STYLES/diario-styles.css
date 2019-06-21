@@ -1,21 +1,27 @@
-.nav-lookbook {
-    background-color: #e44165;
+.nav-diario {
+    background-color: #2dc76d;
 }
 
-.lookbook-jumbotron {
+.diario-jumbotron {
     background-color: lightgray;
     height: 230px;
     text-align: center;
     padding-top: 120px;
 } 
 
-.lookbook-title {
-    color: #e44165;
+.diario-title {
+    color: #2dc76d;
     font-size: 4.25em;
 }
 
-.collection {
+.article {
     height: 400px;
+}
+
+.subtitle-diario {
+    letter-spacing: 1px;
+    font-size: 1em;
+    line-height: normal;
 }
 
 .article-content {

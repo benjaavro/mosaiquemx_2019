@@ -304,6 +304,7 @@
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
+
 .hvr-diario:before {
   content: "";
   position: absolute;

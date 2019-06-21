@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
-        <title>Mosaique México - Diario</title>
+      <!--- --->
+      
+        <title>Mosaique México - Tienda</title>
       
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -12,13 +13,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
       
         <!--- Styles --->  
-        <link rel="stylesheet" href="styles.css" type="text/css">
-        <link rel="stylesheet" href="animation.css" type="text/css">
-        <link rel="stylesheet" href="STYLES/diario-styles.css" type="text/css">
+        <link rel="stylesheet" href="../styles.css" type="text/css">
+        <link rel="stylesheet" href="../animation.css" type="text/css">
+        <link rel="stylesheet" href="../STYLES/tienda-styles.css" type="text/css">
+        <link rel="stylesheet" href="../STYLES/product-styles.css" type="text/css">
       
         <!--- Fonts --->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-        <style>@import url(FONTS/BebasNeue.otf)</style>
+        <style>@import url(../FONTS/BebasNeue.otf)</style>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         
         <script src="slider.js"></script>
@@ -36,10 +38,10 @@
         </nav>
       
         <!--- TOP BAR --->  
-        <div class="nav-diario nav container-fluid">
+        <div class="nav-tienda nav container-fluid">
             <div class="col-6">
-                <a href="index.html">
-                    <img src="IMG/BRAND-TR-W.png" id="logo-nav">
+                <a href="../index.html">
+                    <img src="../IMG/BRAND-TR-W.png" id="logo-nav">
                 </a>
             </div>
             <div class="col-6">
@@ -58,68 +60,31 @@
             </div>
         </div>  
 
-       <!--- JUMBOTRON --->
-       <div class="col-12 container-fluid diario-jumbotron">
-            <h1 class="diario-title">DIARIO</h1>
-        </div>
-        
-        <!--- COLLECTIONS --->
-        <div class="container-fluid collections" >
+        <!--- JUMBOTRON --->
+        <div class="col-12 container-fluid product-jumbotron">
             <div class="container">
-              <div class="row">
-                  <div class="col-2"></div>
-                   <div class="col-8" style="text-align: center; margin-top: 15px;">
-                       <h2 class="subtitle-diario">Nuestro diario es donde nos gusta compartir con todos ustedes acontecimientos importantes de la marca. Te invitamos a dar una leída de lo nos sucede.</h2>
-                   </div>
-                   <div class="col-2"></div>
-              </div>
-            </div>
-            <div class="container" style="margin-bottom: 40px; margin-top: 20px;">
-                <div class="row" style="height: auto;">
-                   
-                    <div class="col-4 article">
-                        <div class="container">
-                            <a href="ARTICLES/example.html" style="text-decoration: none; color: inherit;">
-                                <div class="row">
-                                <h1 class="collection-year">TITULO 1</h1>
-                                </div>
-                                <div class="row collection-image" style="background-color: aquamarine;">
-                                        <img src="#" class="collection-pic">
-                                </div>
-                            </a>
-                         </div>
+                <div class="row">
+                   <a href="../tienda.html" style="color: black;">
+                       <h2 class="back-button"><-- Volver a tienda</h2>
+                   </a>
+                </div>
+                <div class="row" style="height: 500px; background-color: lavender;">
+                    <div class="col-6">
+                        <img src="" alt="Media file not found">
                     </div>
-                    
-                    <div class="col-4 article">
-                        <div class="container">
-                            <a href="#" style="text-decoration: none; color: inherit;">
-                                <div class="row">
-                                <h1 class="collection-year">TITULO 2</h1>
-                                </div>
-                                <div class="row collection-image" style="background-color: aquamarine;">
-                                        <img src="#" class="collection-pic">
-                                </div>
-                            </a>
-                         </div>
+                    <div class="col-6">
+                        <h1>M0001 - T0010</h1>
+                        <h2>$180</h2>
+                        <h4>Colores</h4>
+                        <div class="row">
+                            <div class="col-2 product-mini"></div>
+                            <div class="col-2 product-mini"></div>
+                        </div>
                     </div>
-                    
-                    <div class="col-4 article">
-                        <div class="container">
-                            <a href="#" style="text-decoration: none; color: inherit;">
-                                <div class="row">
-                                <h1 class="collection-year">TITULO 3</h1>
-                                </div>
-                                <div class="row collection-image" style="background-color: aquamarine;">
-                                        <img src="#" class="collection-pic">
-                                </div>
-                            </a>
-                         </div>
-                    </div>
-                    
                 </div>
             </div>
         </div>
-    
+        
         <!--- FOOTER --->
             <div class="container-fluid" id="brand-footer">
                 <div class="container row" id="footer-content">
